@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+.table-Game {
+    width: 300px;
+    height: 380px;
+    background-color: #f3e69a;
+    border: 1px solid #8ea3f0;
+}
+
+.obstacle {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    margin-top: 0;
+    background-color: #6884e6;
+}
+/* .obstacle1 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #6884e6;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.obstacle2 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #6884e6;
+    margin-top: 40px;
+    margin-left: 200px;
+} */
+
+.objet {
+    width: 50px;
+    height: 50px;
+    margin-top: 330px;
+    margin-left: 115px;;
+    background-color: #4CAF50;
+}
+
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin:5px;
+    margin-left: 80px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.up {
+    display: block;
+    margin-left: 145px;
+}
+
+.down {
+    display: block;
+    margin-left: 145px;
+}
+
+.restart {
+    display: initial;
+    position: absolute;
+    top: 200px;
+    margin-left: 115px;
+    margin-top: 10px;
+
+}
