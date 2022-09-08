@@ -1,3 +1,7 @@
+alert('Utiliser Z,S,Q,D pour déplacer le joueur 1')
+alert('Utiliser la flèche haut,bas,gauche,droite pour déplacer le joueur 2')
+alert('appuyer sur l pour lancer le jeu')
+
 let svg = document.querySelector('svg'),
     scoreP1 = document.querySelector('.scorePlayer1'),
     scoreP2 = document.querySelector('.scorePlayer2'),
